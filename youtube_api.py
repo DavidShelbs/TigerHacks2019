@@ -32,11 +32,3 @@ def search(query, max_results=1, order="relevance", token=None, location=None, l
     datePublished = items[0]['snippet']['publishedAt']
     print("First result is: \n Title: {0} \n Channel ID: {1} \n Published on: {2}".format(title, channelId, datePublished))
     return search_response
-
-search_response = search("NF let you down")
-videoId = []
-for search_result in search_response.get("items", []):
-        if search_result["id"]["kind"] == "youtube#video":
-            videoId.append(search_result['id']['videoId'])
-for id in videoId:
-    print(id)
