@@ -9,6 +9,7 @@ from contextlib import contextmanager
 import img_download
 import sys
 from os import path
+import parse_srt
 app = Flask(__name__)
 
 @contextmanager
@@ -40,8 +41,10 @@ def search():
         eng_index = parse_lang.parse_lang("csv/"+videoID + ".csv")
         url = 'http://www.nitrxgen.net/youtube_cc/' + videoID + '/' + eng_index + '.srt'
         filename = wget.download(url, out="srt/"+videoID+".srt", bar=None)
-    ## TODO: Do something with the file
-    # os.remove(filename)
+    #parse the file
+    vid_data = parse_srt.parse_srt("srt/"+videoID+".srt")
+    print(vid_data[2])
+
     with suppress_stdout():
         img_download.downloadimages("hi")
     return render_template('index.html')

@@ -1,18 +1,19 @@
-def parse_func(file_name):
+def parse_srt(file_name):
 	data = {}
 
 	with open(file_name) as f:
 		content = f.readlines()
-	content = [x.strip() for x in content] 
+	content = [x.strip() for x in content]
 
 	start_time = ""
 	end_time = ""
 	key = 0
 	lyric = ""
 	step = 1
+	index = 0
 	for i in content:
 		if step == 1:
-			key = int(i)
+			key = index
 			step = 2
 		elif step == 2:
 			start_time = i[0:12]
@@ -36,6 +37,7 @@ def parse_func(file_name):
 			key = 0
 			lyric = ""
 			step = 1
+			index += 1
 
 	return data
 
@@ -47,7 +49,7 @@ if __name__ == '__main__':
 	# # print just a certain line, key is that line
 	# print (data[1])
 
-	# # print start time and end time 
+	# # print start time and end time
 	# print (data[1][0][0], data[1][0][1])
 
 	# # print lyrics
