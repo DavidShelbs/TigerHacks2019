@@ -12,32 +12,40 @@ def parse_srt(file_name):
 	step = 1
 	index = 0
 	for i in content:
-		if step == 1:
-			key = index
-			step = 2
-		elif step == 2:
-			start_time = i[0:12]
-			end_time = i[17:29]
-			step = 3
-		elif step == 3:
-			if i[-1:] == "ª":
-				for j in i:
-					if (j != "â") and (j != "™") and (j != "ª"):
-						lyric += j
-				step = 4
-			else:
-				for j in i:
-					if (j != "â") and (j != "™") and (j != "ª"):
-						lyric += j
+		try:
+			if step == 1:
+				key = index
+				step = 2
+			elif step == 2:
+				start_time = i[0:12]
+				end_time = i[17:29]
 				step = 3
-		elif step == 4:
-			data[key] = ((start_time, end_time), lyric[1:-1])
-			start_time = ""
-			end_time = ""
-			key = 0
-			lyric = ""
-			step = 1
-			index += 1
+			elif step == 3:
+				if i[-1:] == "ª":
+					for j in i:
+						if (j != "â") and (j != "™") and (j != "ª"):
+							lyric += j
+					step = 4
+				elif i[-1:] == ")":
+					step = 4
+				elif i[0] == "(":
+					step = 3
+				else:
+					for j in i:
+						if (j != "â") and (j != "™") and (j != "ª"):
+							lyric += j
+					lyric += " "
+					step = 3
+			elif step == 4:
+				data[key] = ((start_time, end_time), lyric[1:-1])
+				start_time = ""
+				end_time = ""
+				key = 0
+				lyric = ""
+				step = 1
+				index += 1
+		except:
+			pass
 
 	return data
 

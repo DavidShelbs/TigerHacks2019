@@ -69,6 +69,13 @@ body {
   background-color: #fff;
 }
 
+div.images {
+  margin: 0 auto;
+  background: white;
+  height: 50%;
+  width: 75%;
+}
+
 .bg {
   display: flex;
   flex-direction: row;
@@ -76,17 +83,17 @@ body {
   width: 100%;
   height: 100%;
   background: linear-gradient(
-    to bottom right,  
-    #2C3E50, #FD746C, 
-    #FF8235, #f2cc0f, 
-    #92FE9D, #00C9FF, 
+    to bottom right,
+    #2C3E50, #FD746C,
+    #FF8235, #f2cc0f,
+    #92FE9D, #00C9FF,
     #a044ff, #e73827);
   background-repeat: no-repeat;
   background-size: 1000% 1000%;
   animation: gradient 60s ease infinite;
 }
 
-@keyframes gradient { 
+@keyframes gradient {
   0%{background-position:0% 0%}
   50%{background-position:100% 100%}
   100%{background-position:0% 0%}
@@ -153,7 +160,7 @@ body {
   color: #fff;
   line-height: 300px;
   text-align: center;
-  background: #000
+  background: #000;
 }
 
 hr {

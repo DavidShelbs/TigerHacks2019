@@ -6,7 +6,8 @@ import matplotlib.pyplot as plt
 
 # DEVELOPER_KEY = "AIzaSyDW8VQHj6hgGhdPQwy-hlzU7JGPMCTfPzk"
 # DEVELOPER_KEY = "AIzaSyDbf46h5-R0a-ctrGwFhQmQqPz9aMajmPE"
-DEVELOPER_KEY = "AIzaSyDwbNsN6aJPNTYHOlBpZMIDxczjwaZ-iKw"
+# DEVELOPER_KEY = "AIzaSyDwbNsN6aJPNTYHOlBpZMIDxczjwaZ-iKw"
+DEVELOPER_KEY = "AIzaSyC6oVsiuIrXeK9L4lNrLje1YY7BvAB56bM"
 YOUTUBE_API_SERVICE_NAME = "youtube"
 YOUTUBE_API_VERSION = "v3"
 youtube = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION,developerKey=DEVELOPER_KEY)
@@ -19,6 +20,7 @@ def search(query, max_results=1, order="relevance", token=None, location=None, l
     order = order,
     part="id,snippet",
     maxResults=max_results,
+    videoCaption='closedCaption',
     location=location,
     locationRadius=location_radius).execute()
 

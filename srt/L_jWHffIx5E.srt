@@ -1,0 +1,340 @@
+﻿1
+00:00:01,234 --> 00:00:04,104
+- All right, state
+your name and power.
+
+2
+00:00:04,104 --> 00:00:07,107
+- I am the Waffler, with
+my griddle of justice
+
+3
+00:00:07,107 --> 00:00:10,877
+I bash the enemy in the
+head or I burn them like so.
+
+4
+00:00:10,877 --> 00:00:12,312
+(skin searing)
+
+5
+00:00:12,312 --> 00:00:14,247
+- Ooh.
+- Next.
+
+6
+00:00:14,247 --> 00:00:17,650
+- Hi, I am Pencil Head.
+
+7
+00:00:17,650 --> 00:00:20,587
+- And I am Son of Pencil Head.
+
+8
+00:00:20,587 --> 00:00:21,554
+- [Pencil Head] We erase crime.
+
+9
+00:00:21,554 --> 00:00:23,189
+- Two generations of...
+
+10
+00:00:23,189 --> 00:00:25,125
+- Right.
+- Yes, thank you.
+
+11
+00:00:25,125 --> 00:00:27,894
+(arms whooshing)
+
+12
+00:00:30,864 --> 00:00:33,700
+(crowd screaming)
+
+13
+00:00:35,402 --> 00:00:37,404
+- I'd say there's potential.
+
+14
+00:00:37,404 --> 00:00:39,506
+♪ Somebody once told me ♪
+
+15
+00:00:39,506 --> 00:00:42,142
+♪ The world is gonna roll me ♪
+
+16
+00:00:42,142 --> 00:00:46,479
+♪ I ain't the sharpest
+tool in the shed ♪
+
+17
+00:00:46,479 --> 00:00:48,615
+♪ She was looking kind of dumb ♪
+
+18
+00:00:48,615 --> 00:00:51,051
+♪ With her finger
+and her thumb ♪
+
+19
+00:00:51,051 --> 00:00:55,722
+♪ In the shape of an
+L on her forehead ♪
+
+20
+00:00:55,722 --> 00:00:58,558
+♪ Well the years start coming
+and they don't stop coming ♪
+
+21
+00:00:58,558 --> 00:01:00,794
+♪ Fed to the rules and I
+hit the ground running ♪
+
+22
+00:01:00,794 --> 00:01:03,029
+♪ Didn't make sense
+not to live for fun ♪
+
+23
+00:01:03,029 --> 00:01:05,365
+♪ Your brain gets smart
+but your head gets dumb ♪
+
+24
+00:01:05,364 --> 00:01:07,100
+♪ So much to do,
+so much to see ♪
+
+25
+00:01:07,100 --> 00:01:09,902
+♪ So what's wrong with
+taking the back streets? ♪
+
+26
+00:01:09,903 --> 00:01:12,205
+♪ You'll never know
+if you don't go ♪
+
+27
+00:01:12,205 --> 00:01:14,640
+♪ You'll never shine
+if you don't glow ♪
+
+28
+00:01:14,641 --> 00:01:19,312
+♪ Hey now, you're an all-star,
+get your game on, go play ♪
+
+29
+00:01:19,312 --> 00:01:23,817
+♪ Hey now, you're a rock star,
+get the show on, get paid ♪
+
+30
+00:01:23,817 --> 00:01:27,286
+♪ And all that
+glitters is gold ♪
+
+31
+00:01:27,287 --> 00:01:32,292
+♪ Only shooting stars,
+break the mold ♪
+
+32
+00:01:33,726 --> 00:01:35,428
+♪ It's a cool place and
+they say it gets colder ♪
+
+33
+00:01:35,428 --> 00:01:37,697
+♪ You're bundled up now,
+wait till you get older ♪
+
+34
+00:01:37,697 --> 00:01:39,666
+♪ But the meteor
+men beg to differ ♪
+
+35
+00:01:39,666 --> 00:01:41,935
+♪ Judging by the hole in
+the satellite picture ♪
+
+36
+00:01:41,935 --> 00:01:44,070
+♪ The ice we skate is
+getting pretty thin ♪
+
+37
+00:01:44,070 --> 00:01:46,405
+♪ The water's getting warm
+so you might as well swim ♪
+
+38
+00:01:46,406 --> 00:01:48,675
+♪ My world's on fire,
+how about yours? ♪
+
+39
+00:01:48,675 --> 00:01:51,643
+♪ That's the way I like
+it and I never get bored ♪
+
+40
+00:01:51,644 --> 00:01:56,316
+♪ Hey now, you're an all-star,
+get your game on, go play ♪
+
+41
+00:01:56,316 --> 00:02:00,653
+♪ Hey now, you're a rock star,
+get the show on, get paid ♪
+
+42
+00:02:00,653 --> 00:02:04,224
+♪ All that glitters is gold ♪
+
+43
+00:02:04,224 --> 00:02:08,661
+♪ Only shooting stars
+break the mold ♪
+
+44
+00:02:10,062 --> 00:02:13,732
+("All Star" by Smash Mouth)
+
+45
+00:02:15,068 --> 00:02:19,706
+♪ Yo, yo, yo ♪
+
+46
+00:02:19,706 --> 00:02:20,773
+♪ Yo, yo ♪
+
+47
+00:02:20,773 --> 00:02:23,710
+(tires screeching)
+
+48
+00:02:28,581 --> 00:02:33,119
+♪ Hey now, you're an all-star,
+get your game on, go play ♪
+
+49
+00:02:33,119 --> 00:02:37,657
+♪ Hey now, you're a rock star,
+get the show on, get paid ♪
+
+50
+00:02:37,657 --> 00:02:41,194
+♪ And all that
+glitters is gold ♪
+
+51
+00:02:41,194 --> 00:02:44,263
+♪ Only shooting stars ♪
+
+52
+00:02:44,264 --> 00:02:48,501
+♪ Somebody once asked could I
+spare some change for gas? ♪
+
+53
+00:02:48,501 --> 00:02:53,439
+♪ I need to get myself
+away from this place ♪
+
+54
+00:02:53,439 --> 00:02:55,708
+♪ I said yep what a concept ♪
+
+55
+00:02:55,708 --> 00:02:58,044
+♪ I could use a
+little fuel myself ♪
+
+56
+00:02:58,044 --> 00:03:02,615
+♪ And we could all
+use a little change ♪
+
+57
+00:03:02,615 --> 00:03:05,451
+♪ Well, the years start coming
+and they don't stop coming ♪
+
+58
+00:03:05,451 --> 00:03:07,754
+♪ Fed to the rules and I
+hit the ground running ♪
+
+59
+00:03:07,754 --> 00:03:09,856
+♪ Didn't make sense
+not to live for fun ♪
+
+60
+00:03:09,856 --> 00:03:12,325
+♪ Your brain gets smart
+but your head gets dumb ♪
+
+61
+00:03:12,325 --> 00:03:14,060
+♪ So much to do,
+so much to see ♪
+
+62
+00:03:14,060 --> 00:03:16,896
+♪ So what's wrong with
+taking the back streets? ♪
+
+63
+00:03:16,896 --> 00:03:18,697
+♪ You'll never know
+if you don't go ♪
+
+64
+00:03:18,698 --> 00:03:19,999
+♪ Go ♪
+
+65
+00:03:19,999 --> 00:03:21,601
+♪ You'll never shine
+if you don't glow ♪
+
+66
+00:03:21,601 --> 00:03:26,239
+♪ Hey now, you're an all-star,
+get your game on, go play ♪
+
+67
+00:03:26,239 --> 00:03:30,743
+♪ Hey now, you're a rock star,
+get the show on, get paid ♪
+
+68
+00:03:30,743 --> 00:03:34,647
+♪ And all that
+glitters is gold ♪
+
+69
+00:03:34,647 --> 00:03:39,652
+♪ Only shooting stars
+break the mold ♪
+
+70
+00:03:40,853 --> 00:03:43,556
+♪ And all that
+glitters is gold ♪
+
+71
+00:03:43,556 --> 00:03:47,994
+♪ Only shooting stars
+break the mold ♪
+
+72
+00:03:50,930 --> 00:03:53,166
+(applause)
+

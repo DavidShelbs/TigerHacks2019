@@ -5,6 +5,7 @@ def parse_lang(filename):
             result = line.find(",en,English")
             if result != -1:
                 return parse_line(line)
+    return '0'
 
 def parse_line(line):
     result = ""
