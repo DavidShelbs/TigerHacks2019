@@ -4,7 +4,8 @@ from oauth2client.tools import argparser
 import pandas as pd
 import matplotlib.pyplot as plt
 
-DEVELOPER_KEY = "AIzaSyDW8VQHj6hgGhdPQwy-hlzU7JGPMCTfPzk"
+# DEVELOPER_KEY = "AIzaSyDW8VQHj6hgGhdPQwy-hlzU7JGPMCTfPzk"
+DEVELOPER_KEY = "AIzaSyDbf46h5-R0a-ctrGwFhQmQqPz9aMajmPE"
 YOUTUBE_API_SERVICE_NAME = "youtube"
 YOUTUBE_API_VERSION = "v3"
 youtube = build(YOUTUBE_API_SERVICE_NAME, YOUTUBE_API_VERSION,developerKey=DEVELOPER_KEY)
@@ -26,5 +27,5 @@ def search(query, max_results=1, order="relevance", token=None, location=None, l
     title = items[0]['snippet']['title']
     channelId = items[0]['snippet']['channelId']
     datePublished = items[0]['snippet']['publishedAt']
-    
+
     return search_response

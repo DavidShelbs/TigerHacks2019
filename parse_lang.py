@@ -4,7 +4,6 @@ def parse_lang(filename):
         for line in content:
             result = line.find(",en,English")
             if result != -1:
-                print(line)
                 return parse_line(line)
 
 def parse_line(line):
