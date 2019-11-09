@@ -11,7 +11,12 @@ def downloadimages(query):
     # be specified manually ("large, medium, icon")
     # aspect ratio denotes the height width ratio
     # of images to download. ("tall, square, wide, panoramic")
-    arguments = {"keywords": query, "limit": 1}
+    arguments = {"keywords" : query,
+    "limit" : 1,
+    "output_directory" : "img",
+    "no_directory" : True,
+    "prefix" : query+"_"}
+
     try:
         response.download(arguments)
         print("worked")

@@ -43,7 +43,6 @@ def search():
         filename = wget.download(url, out="srt/"+videoID+".srt", bar=None)
     #parse the file
     vid_data = parse_srt.parse_srt("srt/"+videoID+".srt")
-    print(vid_data[2])
 
     with suppress_stdout():
         img_download.downloadimages("hi")
