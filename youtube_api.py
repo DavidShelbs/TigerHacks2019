@@ -20,15 +20,11 @@ def search(query, max_results=1, order="relevance", token=None, location=None, l
     location=location,
     locationRadius=location_radius).execute()
 
-    print("Search Completed...")
-    print("Total results: {0} \nResults per page: {1}".format(search_response['pageInfo']['totalResults'], search_response['pageInfo']['resultsPerPage']))
-    print("Example output per item, snippet")
-    print(search_response['items'][0]['snippet'].keys())
     #Assign first page of results (items) to item variable
     items = search_response['items'] #50 "items"
     #Assign 1st results to title, channelId, datePublished then print
     title = items[0]['snippet']['title']
     channelId = items[0]['snippet']['channelId']
     datePublished = items[0]['snippet']['publishedAt']
-    print("First result is: \n Title: {0} \n Channel ID: {1} \n Published on: {2}".format(title, channelId, datePublished))
+    
     return search_response
